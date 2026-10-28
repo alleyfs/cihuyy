@@ -6,7 +6,23 @@
 window.portfolioContent = {
   // BLOG: Tambahkan objek artikel di dalam array ini. Biarkan [] jika belum ada tulisan.
   // Contoh objek lengkap tersedia sebagai komentar setelah konfigurasi.
-  blogPosts: [],
+  blogPosts: [
+    {
+  slug: "Sedikit-tentang-saya.",
+  title: "Kenalan dulu yuk!",
+  date: "2026-10-28", // opsional; ubah ke tanggal publikasi yang benar
+  category: "Perkenalann singkat", // opsional
+  summary: "perkenalan saja",
+  cover: "images/artikel/cover-1.jpg", // opsional; bisa juga URL gambar langsung
+  content: [
+    { type: "paragraph", text: "Saya seorang pelajar MTs 01 bruno." },
+    { type: "heading", text: "Saya akan menceritakan secara singkat mengenai diri saya." },
+    { type: "paragraph", text: "Perkenalkan nama saya Ilham Nur Arifin, saya lahir di desa blimbing, Saya sendiri memiliki hobi yang cukup unik yaitu ngoding oleh karena itu saya memutuskan untuk coba coba bikin website ini sekaligus membuat bot jualan otomatis hehe." },
+    { type: "quote", text: "Ingat usaha tidak menkhianati hasil." },
+    { type: "list", items: ["menambah skill", "menambah wawasan"] }
+    ]
+   }
+  ],
 
   // VIDEO PILIHAN: isi url dengan URL file MP4 langsung (mis. URL delivery Cloudinary berakhiran .mp4).
   // Jangan gunakan tautan halaman preview YouTube/Drive.
