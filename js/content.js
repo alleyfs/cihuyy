@@ -6,7 +6,8 @@
 window.portfolioContent = {
   // BLOG: Tambahkan objek artikel di dalam array ini. Biarkan [] jika belum ada tulisan.
   // Contoh objek lengkap tersedia sebagai komentar setelah konfigurasi.
-  blogPosts: {
+  blogPosts: [
+    {
   slug: "Sedikit-tentang-saya.",
   title: "Kenalan dulu yuk!",
   date: "2026-10-28", // opsional; ubah ke tanggal publikasi yang benar
@@ -20,7 +21,8 @@ window.portfolioContent = {
     { type: "quote", text: "Ingat usaha tidak menkhianati hasil." },
     { type: "list", items: ["menambah skill", "menambah wawasan"] }
     ]
-    },
+    }
+    ],
 
   // VIDEO PILIHAN: isi url dengan URL file MP4 langsung (mis. URL delivery Cloudinary berakhiran .mp4).
   // Jangan gunakan tautan halaman preview YouTube/Drive.
