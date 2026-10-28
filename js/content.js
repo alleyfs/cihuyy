@@ -8,7 +8,7 @@ window.portfolioContent = {
   // Contoh objek lengkap tersedia sebagai komentar setelah konfigurasi.
   blogPosts: [
     {
-  slug: "Sedikit-tentang-saya.",
+  slug: "Sedikit-tentang-saya",
   title: "Kenalan dulu yuk!",
   date: "2026-10-28", // opsional; ubah ke tanggal publikasi yang benar
   category: "Perkenalann singkat", // opsional
